@@ -47,7 +47,7 @@ export default function SingleNews({singlePostData}) {
                             src={featuredImage.node.sourceUrl}
                             alt={featuredImage.node.altText}
                             width={featuredImage.node.mediaDetails.width}
-                            height={featuredImage.node.height}
+                            height={featuredImage.node.mediaDetails.height}
                         />
             }
             <Heading type="h1">{title}</Heading>

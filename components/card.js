@@ -18,7 +18,7 @@ export default function Card({ node }) {
                             src={featuredImage.node.sourceUrl}
                             alt={featuredImage.node.altText}
                             width={featuredImage.node.mediaDetails.width}
-                            height={featuredImage.node.height}
+                            height={featuredImage.node.mediaDetails.height}
                         />
                     </a>
                 </Link>

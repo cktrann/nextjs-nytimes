@@ -1,6 +1,7 @@
 import Container from './container'
 import Row from './row'
 import Col from './col'
+import Heading from './heading'
 
 import Card from './card'
 
