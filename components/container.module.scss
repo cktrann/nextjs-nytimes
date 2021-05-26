@@ -1,0 +1,32 @@
+@use '../styles/abstracts/mixins';
+
+    .container {
+        //background-color: bisque;
+        padding: 0 1rem;
+        margin: 0 auto;
+        @include mixins.breakpoint(tablet) {
+            width: 80%;
+        }
+        @include mixins.breakpoint(laptop) {
+            width: 980px;
+        }
+        @include mixins.breakpoint(desktop) {
+            width: 1140px;
+        }
+        &--content {
+            //background-color: yellowgreen;
+            padding:0 1rem;
+            margin: 0 auto;
+            width: 100%;
+            @include mixins.breakpoint(tablet) {
+                width: 40em;
+            }
+            @include mixins.breakpoint(laptop) {
+                width: 45em;
+            }
+            @include mixins.breakpoint(laptop) {
+                width: 50em;
+            }
+         
+        }
+    }
